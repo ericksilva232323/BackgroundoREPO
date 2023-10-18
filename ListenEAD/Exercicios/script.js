@@ -51,11 +51,9 @@ function ex6(){
     document.querySelector('#tempo6').innerHTML = `tempo estimado de ${ dist6 / veloAviao }` 
 
 }
-function ex7(){
-    let caminhao = 18.000;
-    let alqueire = 250.000;
-    
-    document.querySelector('#viaCaminhao').innerHTML= ``
+function ex7(caminhao, alqueire){
+
+    document.querySelector('#viaCaminhao').innerHTML= `A quantidade de viagens necessarias para zerar a colheita sera de: ${ alqueire / caminhao}`    
 
 }
 
